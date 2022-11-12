@@ -1,0 +1,5 @@
+version: "3"
+services:
+  redbrick-strapi:
+    container_name: redbrick-strapi-prod
+    command: yarn start

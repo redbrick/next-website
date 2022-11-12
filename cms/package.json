@@ -1,0 +1,30 @@
+{
+  "name": "redbrick-next-website-cms",
+  "version": "0.1.0",
+  "author": "Jed Hazaymeh <magma@redbrick.dcu.ie>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "docker:dev": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d",
+    "docker:prod": "docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "4.5.0",
+    "@strapi/plugin-i18n": "4.5.0",
+    "@strapi/plugin-users-permissions": "4.5.0",
+    "@strapi/strapi": "4.5.0",
+    "pg": "8.6.0"
+  },
+  "strapi": {
+    "uuid": "7e7f1664-b252-4a9b-82d9-519be2ea8e50"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  }
+}
