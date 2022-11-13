@@ -1,7 +1,8 @@
 {
-  "name": "nextjs-with-typescript",
-  "version": "5.0.0",
+  "name": "redbrick-next-website-app",
+  "version": "0.1.1",
   "private": true,
+  "author": "Jed Hazaymeh <magma@redbrick.dcu.ie>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
